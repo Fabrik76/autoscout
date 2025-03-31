@@ -1,0 +1,147 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #d5001c;
+    margin-bottom: 20px;
+}
+
+.search-panel {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #d5001c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #b30018;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.results-panel {
+    margin-top: 30px;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.status {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.loading {
+    color: #0066cc;
+    font-weight: 600;
+}
+
+.success {
+    color: #008000;
+    font-weight: 600;
+}
+
+.error {
+    color: #cc0000;
+    font-weight: 600;
+}
+
+.info {
+    color: #666;
+    font-style: italic;
+}
+
+table.dataTable {
+    width: 100% !important;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table.dataTable thead th {
+    background-color: #f2f2f2;
+    font-weight: 600;
+    padding: 12px;
+    text-align: left;
+}
+
+table.dataTable tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+table.dataTable tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #d5001c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
