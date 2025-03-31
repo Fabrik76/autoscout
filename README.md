@@ -1,0 +1,2 @@
+# autoscout
+progetto autosocut
